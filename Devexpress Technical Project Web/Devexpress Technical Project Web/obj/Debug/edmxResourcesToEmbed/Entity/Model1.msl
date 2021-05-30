@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbTeknikServisModelStoreContainer" CdmEntityContainer="DbTeknikServisEntities">
+    <EntitySetMapping Name="TblÜrünTakip">
+      <EntityTypeMapping TypeName="DbTeknikServisModel.TblÜrünTakip">
+        <MappingFragment StoreEntitySet="TblÜrünTakip">
+          <ScalarProperty Name="TakipID" ColumnName="TakipID" />
+          <ScalarProperty Name="Açıklama" ColumnName="Açıklama" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="SeriNo" ColumnName="SeriNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblHakkımızda">
+      <EntityTypeMapping TypeName="DbTeknikServisModel.TblHakkımızda">
+        <MappingFragment StoreEntitySet="TblHakkımızda">
+          <ScalarProperty Name="Hakkımızda" ColumnName="Hakkımızda" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblÜrün">
+      <EntityTypeMapping TypeName="DbTeknikServisModel.TblÜrün">
+        <MappingFragment StoreEntitySet="TblÜrün">
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="Kategori" ColumnName="Kategori" />
+          <ScalarProperty Name="Stok" ColumnName="Stok" />
+          <ScalarProperty Name="SatışFiyat" ColumnName="SatışFiyat" />
+          <ScalarProperty Name="AlışFiyat" ColumnName="AlışFiyat" />
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMesaj">
+      <EntityTypeMapping TypeName="DbTeknikServisModel.TblMesaj">
+        <MappingFragment StoreEntitySet="TblMesaj">
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

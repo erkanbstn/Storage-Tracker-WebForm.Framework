@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Devexpress_Technical_Project_Web.Admin" %>
+
+<!DOCTYPE html>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<html>   
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>   
+     <title>Technical Service Automation</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Technical Project</a>
+    </div>
+    <ul class="nav navbar-nav">
+       <li><a href="WebForm1.aspx">Ürün Takibi</a></li>
+      <li><a href="Default.aspx">İletişim</a></li>
+      <li><a href="Default.aspx">Web Sayfamız</a></li>
+      <li><a href="Default.aspx">Destek</a></li>         
+    </ul>
+  </div>
+</nav>  
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
